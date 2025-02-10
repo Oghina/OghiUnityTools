@@ -1,0 +1,7 @@
+{
+  "name": "oghiunitytools",
+  "version": "1.0.0",
+  "displayName": "Oghi Unity Tools",
+  "description": "Unity utility library.",
+  "unity": "2022.1"
+}
