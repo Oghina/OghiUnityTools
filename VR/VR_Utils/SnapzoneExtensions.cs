@@ -13,7 +13,7 @@ namespace OghiUnityTools.VR.VR_Utils
             
             snapZone.GetComponent<SphereCollider>().enabled = false; 
         }
- 
+  
         // Unlock the snapzone 
         public static void UnlockSnapzone(this SnapZone snapZone)
         {
