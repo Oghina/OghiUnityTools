@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace OghiUnityTools.DependencyInjection.ExampleUsage
+namespace OghiUnityTools.PatternsExamples.AbilitySystem
 {
     public class AbilityCommand : ICommand
     {

@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using OghiUnityTools.ExtensionMethods;
 
-namespace OghiUnityTools.DependencyInjection.ExampleUsage
+namespace OghiUnityTools.PatternsExamples.AbilitySystem
 {
     public class AbilitySystem : IAbilitySystem
     {
@@ -58,7 +58,7 @@ namespace OghiUnityTools.DependencyInjection.ExampleUsage
                 return;
             }
             
-            Commands.ForEach(command => UnityEngine.Debug.Log(command.Name));
+            Commands.ForEach(command => command.Execute());
         }
     }
 }

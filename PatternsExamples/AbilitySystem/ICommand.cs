@@ -1,4 +1,4 @@
-namespace OghiUnityTools.DependencyInjection.ExampleUsage
+namespace OghiUnityTools.PatternsExamples.AbilitySystem
 {
     public interface ICommand
     {

@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace OghiUnityTools.DependencyInjection.ExampleUsage
+namespace OghiUnityTools.PatternsExamples.AbilitySystem
 {
     public interface IAbilitySystem
     {
