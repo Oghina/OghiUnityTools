@@ -1,4 +1,4 @@
-# Unity three type of dialog
+# Unity dialog system
 
 ## Description
 Easy dialog system using the EventBus. All dialogs will appear in the order they were invoked no mather what script invoked them.
