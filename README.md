@@ -40,7 +40,7 @@ public class ExampleMonoBehaviour : MonoBehaviour
 ```
 
 # Unit Testing Examples
-### Using Unity Test Framework and [NSubstitute]("https://github.com/Thundernerd/Unity3D-NSubstitute")
+### Using Unity Test Framework and [NSubstitute](https://github.com/Thundernerd/Unity3D-NSubstitute)
 
 Editor test
 ```csharp 
