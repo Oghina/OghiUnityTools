@@ -1,0 +1,8 @@
+{
+  "name": "com.oghina.oghiunitytools",
+  "version": "1.0.0",
+  "displayName": "Oghi Unity Tools",
+  "description": "Utility tools library.",
+  "dependencies": {
+  }
+}
