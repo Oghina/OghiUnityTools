@@ -12,7 +12,7 @@ namespace OghiUnityTools.Utils
         public static T Instance {
             get {
                 if (instance == null) {
-                    instance = FindAnyObjectByType<T>();
+                    instance = FindAnyObjectByType<T>(FindObjectsInactive.Include);
                     if (!instance) {
                         var go = new GameObject(typeof(T).Name + " Auto-Generated");
                         instance = go.AddComponent<T>();
