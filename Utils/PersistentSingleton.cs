@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace UnityUtils {
+namespace OghiUnityTools.Utils {
     public class PersistentSingleton<T> : MonoBehaviour where T : Component {
         public bool AutoUnparentOnAwake = true;
 
