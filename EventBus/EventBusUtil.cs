@@ -59,7 +59,10 @@ namespace OghiUnityTools.EventBus
             foreach (var eventType in EventTypes) {
                 var busType = typedef.MakeGenericType(eventType);
                 eventBusTypes.Add(busType);
+                
+                #if UNITY_EDITOR
                 Debug.Log($"Initialized EventBus<{eventType.Name}>");
+                #endif
             }
         
             return eventBusTypes;
